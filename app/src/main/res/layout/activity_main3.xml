@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@color/beige">
+
+    <TextView
+        android:id="@+id/bankaIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTERBANK"
+        android:textColor="@color/darkblue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060" />
+
+    <TextView
+        android:id="@+id/kimlikIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kimlik Doğrulama"
+        android:textColor="@color/darkblue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.130" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/tc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.250"/>
+
+    <TextView
+        android:id="@+id/bilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kimlik ve iletişim bilgilerinizi güvenlik doğrulaması yapmak amacıyla işlememiz gerekiyor."
+        android:textColor="@color/darkblue"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:paddingStart="28dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.450" />
+
+    <TextView
+        android:id="@+id/bilgi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kimlik kartınızı doğrulayabilmemiz için ön ve arka yüzünün fotoğrafını çekmeniz gerekmektedir."
+        android:textColor="@color/darkblue"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:paddingStart="28dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.540" />
+
+    <TextView
+        android:id="@+id/bilgi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kimlik kartınızın fotoğrafını çektikten sonra yüzünüzün net bir fotoğrafını çekmeniz gerekmektedir."
+        android:textColor="@color/darkblue"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:paddingStart="28dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.630" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="323dp"
+        android:layout_height="70dp"
+        android:buttonTint="@color/lightGray"
+        android:checked="false"
+        android:paddingStart="6dp"
+        android:paddingEnd="2dp"
+        android:text="Interbank’a vermiş olduğum özel nitelikli kişisel verilerimin sadece kimlik doğrulaması yapmak amacıyla işlenmesine izin veriyorum."
+        android:textColor="@color/lightGray"
+        android:textColorHighlight="@color/darkBeige"
+        android:textColorHint="@color/lightGray"
+        android:textColorLink="@color/darkblue"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.770" />
+
+    <TextView
+        android:id="@+id/devamEtBtn"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:text="Devam Et"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.940"
+        android:textColor="@color/white"
+        android:background="@drawable/inactive_button_background"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+        android:gravity="center"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

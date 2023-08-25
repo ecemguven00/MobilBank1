@@ -1,0 +1,9 @@
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar rengini beyaz yapar -->
+        <item name="android:statusBarColor">#FFFFF5</item>
+
+        <!-- Status bar metinlerini siyah yapar -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
